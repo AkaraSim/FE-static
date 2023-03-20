@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.intro-header-primary {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #fff;
+  position: relative;
+}
+
+.intro-img {
+  background: linear-gradient(90deg, rgb(0, 23, 31) 30.2%, rgba(0, 0, 0, 0) 100%) 0% 0% / cover, url('/assets/departmentSection/ite/ite-i-3.jpg') center center;
+  padding: max(5rem, 5%) 7%;
+}
+
+.intro-banner-description {
+  font-weight: 500;
+  font-size: clamp(0.87em, 1.25vw, 1.5em);
+  color: rgb(184, 188, 191);
+}
+
+.scrollSpy-nav {
+  z-index: 1;
+}
+
+.nav-pills .nav-item .nav-link {
+  color: #000;
+  font-weight: 500;
+  font-size: clamp(0.7em, 1.5vw, 1em);
+  font-weight: bold;
+}
+
+.nav-pills .nav-item .nav-link.active {
+  color: #fff;
+  background: rgb(1, 65, 100);
+}
+
+.overview-header {
+  color: #000;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: clamp(1.5em, 4vw, 3.68em);
+  letter-spacing: .015em;
+}
+
+.overview-image {
+  width: 100vw;
+  object-fit: cover;
+  vertical-align: middle;
+  aspect-ratio: 16/9;
+}
+
+.job_prospects {
+  color: #fff;
+  background: #001f30;
+  padding: 4rem 0;
+}
+
+.job_prospects-header {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(2rem, 5vw, 5rem);
+  font-weight: 800;
+}
+
+.job-prospect-mini-tiltle {
+  text-transform: capitalize;
+  margin-top: 0.85em;
+  margin-bottom: 0.5em;
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(1.25em, 1.25vw, 1.45em);
+  font-weight: 800;
+}
+
+.job-prospect-description {
+  color: #b8bcbf;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: clamp(.75em, 1vw, 1.06em);
+  letter-spacing: .015em;
+}
+
+.job_prospects-img-sec {
+  max-width: 300px;
+}
+
+.job_prospects-img {
+  width: 100%;
+}
+
+.event-activities {
+  background-color: rgb(15, 53, 74);
+  color: #fff;
+  padding: 4rem 0;
+}
+
+.event-activities-header {
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: .015em;
+}
+
+
+/*============================================= */
+/* Research Card */
+.research-sec-item {
+  background-color: rgb(246, 246, 247);
+}
+
+.research-sec-header {
+  color: #000;
+  font-family: 'Manrope', sans-serif;
+}
+
+.research-card {
+  background-color: #fff;
+  box-shadow: 0 25px 50px -12px transparent;
+  transition: box-shadow .3s ease-in-out;
+}
+
+.research-card:hover {
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 30%);
+  cursor: pointer;
+}
+
+.research-image {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 2.77;
+  vertical-align: middle;
+}
+
+.research-card-header {
+  color: #3d4450;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: 800;
+  font-size: clamp(1.25em, 2vw, 2.25em);
+  overflow: hidden;
+  letter-spacing: .015em;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.research-lead {
+  font-size: clamp(0.75em, 1vw, 1em);
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(1, 65, 100);
+  font-weight: bold;
+  margin: 1em 0px;
+}
+
+.research-card-description {
+  font-weight: 600;
+  font-size: clamp(.75em, 1.25vw, 1.15em);
+  line-height: 1.8em;
+  color: #3d4450;
+  margin-bottom: 1.8em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.reasearch-card-btn {
+  font-family: 'Manrope', sans-serif;
+  color: white;
+  width: fit-content;
+  border: none;
+  background-color: rgb(0, 23, 31);
+  font-weight: bold;
+  font-size: clamp(0.85em, 1.15vw, 1.15em);
+  padding: 0.7em 2em;
+  letter-spacing: 0.015em;
+  line-height: 100%;
+}
+
+.reasearch-card-btn:hover {
+  background-color: rgb(36, 183, 183);
+  color: white;
+  box-shadow: rgb(17 17 26 / 10%) 0px 1px 0px, rgb(17 17 26 / 10%) 0px 8px 24px, rgb(17 17 26 / 10%) 0px 16px 48px;
+}
+
+/* End of Research Card */
+
+/* ============================= */
+/* Project section style */
+
+.project-sec {
+  background-color: rgb(0, 31, 48);
+  color: #fff;
+  position: relative;
+}
+
+.project-sec-header {
+  font-family: 'Manrope', sans-serif;
+  margin-bottom: 1.5em;
+}
+
+.project-card-img {
+  object-fit: cover;
+  aspect-ratio: 3/2;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.project-card-header {
+  text-transform: capitalize;
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(1.25em, 1.25vw, 1.45em);
+  font-weight: 800;
+}
+
+.porject-lead {
+  color: #00bcd4;
+  font-weight: 800;
+  font-size: clamp(.9em, 1vw, 1.25em);
+  margin-bottom: 0.5em;
+}
+
+.project-card-description {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: clamp(.75em, 1vw, 1.06em);
+  letter-spacing: .015em;
+  color: #dedede;
+  text-transform: unset;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+/* End of Project section */
+
+/* ============================================== */
+/* Contact us Section */
+.contact_us-sec {
+  background-color: #001f30;
+}
+
+.contact_us-sec-header {
+  color: #fff;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 5vw, 6rem);
+  letter-spacing: .015em;
+}
+
+.contact_us-sec-description {
+  color: #fff;
+  margin-bottom: 2em;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: clamp(.85em, 1.25vw, 1.15em);
+  line-height: 1.8em;
+}
+
+i {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+a {
+  color: #b7bca9;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  line-height: 1.8em;
+  font-size: clamp(0.75em, 1.25vw, 1.15em);
+  text-transform: uppercase;
+  transition: color 250ms ease-in-out 0s;
+  margin-left: 0.5em;
+}

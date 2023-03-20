@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.intro-header-primary {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #fff;
+  position: relative;
+}
+
+.intro-img {
+  background: linear-gradient(90deg, rgb(0, 23, 31) 30.2%, rgba(0, 0, 0, 0) 100%) 0% 0% / cover, url('/assets/departmentSection/ite/bg_data_science.1fdf3377.jpg') center center;
+  padding: max(5rem, 5%) 7%;
+}
+
+.intro-banner-description {
+  font-weight: 500;
+  font-size: clamp(0.87em, 1.25vw, 1.5em);
+  color: rgb(184, 188, 191);
+}
+
+.scrollSpy-nav {
+  z-index: 1;
+}
+
+.nav-pills .nav-item .nav-link {
+  color: #000;
+  font-weight: 500;
+  font-size: clamp(0.7em, 1.5vw, 1em);
+  font-weight: bold;
+}
+
+.nav-pills .nav-item .nav-link.active {
+  color: #fff;
+  background: rgb(1, 65, 100);
+}
+
+.overview-header {
+  color: #000;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: clamp(1.5em, 4vw, 3.68em);
+  letter-spacing: .015em;
+}
+
+.overview-image {
+  width: 100vw;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.job_prospects {
+  color: #fff;
+  background: #001f30;
+  padding: 4rem 0;
+}
+
+.job_prospects-header {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(2rem, 5vw, 5rem);
+  font-weight: 800;
+}
+
+.job-prospect-mini-tiltle {
+  text-transform: capitalize;
+  margin-top: 0.85em;
+  margin-bottom: 0.5em;
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(1.25em, 1.25vw, 1.45em);
+  font-weight: 800;
+}
+
+.job-prospect-description {
+  color: #b8bcbf;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: clamp(.75em, 1vw, 1.06em);
+  letter-spacing: .015em;
+}
+
+.job_prospects-img-sec {
+  max-width: 300px;
+}
+
+.job_prospects-img {
+  width: 100%;
+}
+
+.event-activities {
+  background-color: rgb(15, 53, 74);
+  color: #fff;
+  padding: 4rem 0;
+}
+
+.event-activities-header {
+  font-family: 'Manrope', sans-serif;
+  letter-spacing: .015em;
+}
+
+/* ============================================== */
+/* Contact us Section */
+.contact_us-sec {
+  background-color: #001f30;
+}
+
+.contact_us-sec-header {
+  color: #fff;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  font-size: clamp(2rem, 5vw, 6rem);
+  letter-spacing: .015em;
+}
+
+.contact_us-sec-description {
+  color: #fff;
+  margin-bottom: 2em;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: clamp(.85em, 1.25vw, 1.15em);
+  line-height: 1.8em;
+}
+
+i {
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+a {
+  color: #b7bca9;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  line-height: 1.8em;
+  font-size: clamp(0.75em, 1.25vw, 1.15em);
+  text-transform: uppercase;
+  transition: color 250ms ease-in-out 0s;
+  margin-left: 0.5em;
+}

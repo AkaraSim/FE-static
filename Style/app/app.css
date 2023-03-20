@@ -1,0 +1,123 @@
+/*!
+ * Customization Stylesheet)
+ * Copyright@2022 ICT Team
+ - To overwrite on boostrap5
+ - To create our own class for any specific requirement
+ */
+/* description text color usually use
+	#383b42;
+ */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Manrope', sans-serif;
+}
+
+.bg-primary {
+	background-color: #014164 !important;
+}
+
+.bg-secondary {
+	background-color: #025b87 !important;
+}
+
+.bg-tertiary {
+	background-color: #e73335 !important;
+}
+
+.navbar .megamenu {
+	padding: 10px;
+}
+
+.megamenu.show {
+	margin-top: 2px !important;
+}
+
+/* Header titles */
+/* =============================================== */
+h1 {
+	font-size: clamp(2rem, 5vw, 6rem);
+	text-transform: capitalize;
+	font-weight: 800;
+	margin-bottom: 0.5em;
+}
+
+h2 {
+	color: #fff;
+	font-weight: 800;
+	letter-spacing: .015em;
+	font-size: clamp(2rem, 5vw, 5rem);
+	line-height: 115%;
+	margin-bottom: 0.5em;
+}
+
+.description-text {
+	font-family: 'Manrope', sans-serif;
+	font-weight: 600;
+	line-height: 1.8em;
+	font-size: clamp(.85em, 1.25vw, 1.15em);
+}
+
+
+/* table items */
+/* ============================================== */
+th {
+	color: rgb(178, 223, 219);
+	font-weight: 700;
+	font-size: clamp(12px, 1.25vw, 1.5em);
+	line-height: 1.35em;
+}
+
+
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .has-megamenu {
+		position: static !important;
+	}
+
+	.navbar .nav-item:hover .dropdown-menu {
+		display: block;
+		margin-top: 10px;
+	}
+
+	.navbar .megamenu {
+		left: 0;
+		right: 0;
+		width: 100%;
+		margin-top: 0;
+	}
+}
+
+/* ============ desktop view .end// ============ */
+/* ============ mobile view ============ */
+@media(max-width: 991px) {
+
+	.navbar.fixed-top .navbar-collapse,
+	.navbar.sticky-top .navbar-collapse {
+		overflow-y: auto;
+		max-height: 90vh;
+		margin-top: 10px;
+	}
+
+	.navbar .nav-item:hover .dropdown-menu {
+		display: block;
+	}
+
+	.navbar .nav-item .dropdown-menu {
+		margin-top: 0;
+	}
+}

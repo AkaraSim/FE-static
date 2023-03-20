@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="tab.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="text-center">
+      <nav class="bg-light">
+        <div
+          class="nav nav-pills nav-fill d-flex justify-content-center"
+          id="nav-tab"
+          role="tablist"
+        >
+          <a
+            class="nav-link active"
+            id="nav-general-tab"
+            data-bs-toggle="tab"
+            href="#nav-general"
+            role="tab"
+            aria-controls="nav-general"
+            aria-selected="true"
+            >General</a
+          >
+          <a
+            class="nav-link"
+            id="nav-bio-tab"
+            data-bs-toggle="tab"
+            href="#nav-bio"
+            role="tab"
+            aria-controls="nav-bio"
+            aria-selected="false"
+            >BIO</a
+          >
+          <a
+            class="nav-link"
+            id="nav-ite-tab"
+            data-bs-toggle="tab"
+            href="#nav-ite"
+            role="tab"
+            aria-controls="nav-ite"
+            aria-selected="false"
+            >ITE</a
+          >
+          <a
+            class="nav-link"
+            id="nav-teed-tab"
+            data-bs-toggle="tab"
+            href="#nav-teed"
+            role="tab"
+            aria-controls="nav-teed"
+            aria-selected="false"
+            >TEED</a
+          >
+        </div>
+      </nav>
+      <div
+        class="tab-content d-flex justify-content-center"
+        id="nav-tabContent"
+      >
+        <div
+          class="tab-pane fade show active"
+          id="nav-general"
+          role="tabpanel"
+          aria-labelledby="nav-general-tab"
+        >
+          <p>clicked home</p>
+          <p>clicked home</p>
+          <p>clicked home</p>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="nav-bio"
+          role="tabpanel"
+          aria-labelledby="nav-bio-tab"
+        >
+          <p>clicked profile</p>
+          <p>clicked profile</p>
+          <p>clicked profile</p>
+        </div>
+        <div
+          class="tab-pane fade border border border-danger p-3"
+          id="nav-ite"
+          role="tabpanel"
+          aria-labelledby="nav-ite-tab"
+          style="width: fit-content"
+        >
+          <p>clicked contact</p>
+          <p>clicked contact</p>
+          <p>clicked contact</p>
+        </div>
+        <div
+          class="tab-pane fade border border border-danger p-3"
+          id="nav-teed"
+          role="tabpanel"
+          aria-labelledby="nav-teed-tab"
+          style="width: fit-content"
+        >
+          <p>clicked contact</p>
+          <p>clicked contact</p>
+          <p>clicked contact</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

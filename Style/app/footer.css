@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.footer-section {
+  background: linear-gradient(0deg, #001f30, #014164);
+}
+
+p.footer-header {
+  color: rgb(203, 203, 203);
+  padding-left: 0px;
+  font-family: var(--font-manrope);
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+a.footer-address {
+  color: #e5e5e5;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+img.footer-image {
+  height: 2.5rem;
+}
+
+p.school-title-khmer {
+  font-family: 'Angkor', cursive;
+  font-size: 1.2rem;
+  font-weight: 400;
+}

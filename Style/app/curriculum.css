@@ -1,0 +1,32 @@
+
+.curriculum-section {
+  background-color: rgb(0, 23, 31);
+}
+.nav-pills .nav-item .nav-link {
+  color: #fff;
+  font-weight: 500;
+}
+
+.nav-pills .nav-item .nav-link.active {
+  color: #fff;
+  background-color: #014164;
+}
+
+/* table section */
+.semester {
+  font-family: 'lato', sans-serif;
+  font-style: italic;
+}
+
+.table-header {
+  color: rgb(128, 203, 196);
+  font-weight: 700;
+}
+
+.nav-pills > .nav-item > .btn-year {
+  border: 2px solid rgb(0, 23, 31);
+}
+.nav-pills > .nav-item:hover > .btn-year {
+  border: 2px solid #fff;
+  transition: .8s;
+}

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.faq-bg-img {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  height: calc(70vh);
+  min-height: 300px;
+  max-height: 500px;
+  background: linear-gradient(270deg, rgba(2, 85, 138, 0) 0%, rgb(2, 85, 138) 100%) 50% 25% / cover, url('/assets/faq/faq.364e2d3d.jpg');
+  background-position: 50% 25%;
+  transition: all 250ms linear 0s, transform 150ms ease-in-out 0s, max-height 250ms ease 0s;
+}
+
+h1.faq-banner-title {
+  text-transform: uppercase;
+  font-family: var(--header-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 6rem;
+  color: rgb(255, 255, 255);
+}
+
+.nav-pills .nav-item .nav-link {
+  background-color:#e5e5e5;
+  color: black;
+}
+.nav-pills .nav-item .nav-link.active {
+  background-color: #014164;
+  color: #fff;
+}
+
+button.accordion-button.collapsed {
+  background-color: #e5e5e5;
+}
+
+/* footer section */
+
+.footer-section {
+  background: linear-gradient(0deg, #001f30, #014164);
+}le-khmer {
+  font-family: 'Angkor', cursive;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+p.footer-header {
+  color: rgb(203, 203, 203);
+  padding-left: 0px;
+  font-family: var(--font-manrope);
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+a.footer-address {
+  color: #e5e5e5;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+img.footer-image {
+  height: 2.5rem;
+}
+
+p.school-tit

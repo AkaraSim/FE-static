@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.carousel-indicators button[type=button]{
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+}
+
+.carousel-image1 {
+  /* content: url('/assets/image-slider/banner-n-fe.fc1c978a.jpg'); */
+  display: block;
+  width: 100%;
+}
+
+.carousel-image2 {
+  content: url('/assets/image-slider/banner-n-ee.41dc0be0.jpg');
+  display: block;
+  width: 100%;
+}
+
+.carousel-image3 {
+  content: url('/assets/image-slider/banner-n-ascs.d416c500.png');
+  display: block;
+  width: 100%;
+}
+
+.carousel-image4 {
+  content: url('/assets/image-slider/banner-n-ite.d101b19c.jpg');
+  display: block;
+  width: 100%;
+}
+
+.carousel-image5 {
+  content: url('/assets/image-slider/banner-n-ite.d101b19c.jpg');
+  display: block;
+  width: 100%;
+}
+
+.carousel-image6 {
+  content: url('/assets/image-slider/banner-n-teed.c2fa1014.jpg');
+  display: block;
+  width: 100%;
+}
+
+.gMquvM {
+  font-size: clamp(2em, 3.5vw, 3.5em);
+  font-weight: 800;
+  line-height: 1.2;
+  font-family: 'Manrope', sans-serif;
+}
+
+.gePXqz {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: clamp(0.87em, 1.25vw, 1.5em);
+  color: rgb(184, 188, 191);
+}

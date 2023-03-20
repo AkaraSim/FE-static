@@ -1,0 +1,155 @@
+.academic-staff-item {
+  background-color: #f6f6f7;
+}
+
+.academic-staff-card {
+  overflow: hidden;
+  position: relative;
+  height: clamp(460px, 45vw, 680px);
+  background: #fff;
+  text-align: start;
+  box-shadow: 0 25px 50px -12px transparent;
+  transition: box-shadow .3s ease-in-out;
+}
+
+.academic-staff-card:hover {
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 30%);
+}
+
+.academic-staff-name {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  margin-bottom: 0.35em;
+  font-size: clamp(1em, 1.25vw, 1.45em);
+}
+
+.academic-staff-role {
+  font-weight: 700;
+  font-size: clamp(.75em, 1vw, 1.25em);
+  margin-bottom: 0.5em;
+  color: #014164;
+}
+
+.academic-staff-email {
+  font-size: clamp(.75em, 1vw, 1em);
+  font-weight: 600;
+  font-family: 'Manrope', sans-serif;
+  color: #3d4450;
+}
+
+.staff-bio {
+  visibility: visible;
+  text-align: start;
+  font-size: clamp(.7em, 1vw, 1em);
+  font-weight: 600;
+  margin-bottom: 0.75em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.content-wrapper {
+  transition: padding .15s, opacity .25s;
+  padding: 5%;
+}
+
+.content-wrapper-full {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .25s ease-in-out, opacity .25s ease-in-out .3s;
+}
+
+.staff-bio-full {
+  max-height: 450px;
+  height: 27vw;
+  overflow: auto;
+  scrollbar-width: thin;
+  text-align: start;
+  font-size: clamp(.7em, 1vw, 1em);
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+.show-more-toggle-label {
+  width: 100%;
+  background: white;
+  float: right;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.toggle-label-on {
+  cursor: pointer;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  color: rgb(1, 65, 100);
+  font-size: clamp(0.7em, 1vw, 1em);
+  font-weight: bold;
+  float: right;
+}
+
+.toggle-label-off {
+  display: none;
+  cursor: pointer;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  color: rgb(1, 65, 100);
+  font-size: clamp(0.7em, 1vw, 1em);
+  font-weight: bold;
+  float: right;
+}
+
+.show-more-toggle-checkbox:checked~.academic-staff-img {
+  position: absolute;
+  width: 20%;
+  border-radius: 100%;
+  margin: 1.5em 1.5em 0 0;
+  right: 0;
+  transition: .25s;
+}
+
+.academic-staff-img  {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  transition: width .35s 50ms, border-radius .1s ease-in, margin .3s;
+}
+
+.show-more-toggle-checkbox:checked~.content-wrapper {
+  display: none;
+}
+
+.show-more-toggle-checkbox:checked~.content-wrapper-full {
+  visibility: visible;
+  padding: 5%;
+  opacity: 1;
+  height: 100%;
+}
+
+.show-more-toggle-checkbox:checked~.show-more-toggle-label .toggle-label-off {
+  display: block;
+}
+
+.show-more-toggle-checkbox:checked~.show-more-toggle-label .toggle-label-on {
+  display: none;
+}
+
+.show-more-toggle-label:hover .toggle-label-on {
+  color: rgb(7, 118, 177);
+  transition: .3s;
+}
+
+.show-more-toggle-label:hover .toggle-label-off {
+  color: rgb(7, 118, 177);
+  transition: .3s;
+}
+
+.academic-staff-header {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  letter-spacing: .015em;
+  color: #000;
+}
